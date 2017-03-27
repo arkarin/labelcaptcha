@@ -22,7 +22,7 @@ for fidx in range(fcont):
     im = Image.open(fulldir)
     plt.imshow(im)
     plt.show()
-    lbstr = raw_input("Input the label of image above (input 'EXIT' to end):")
+    lbstr = raw_input("Input the label of image (input 'EXIT' to end):")
     if lbstr == 'exit' or lbstr == 'EXIT':
         print "exit..."
         break
